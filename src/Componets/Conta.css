@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+  }
+  .brand-icons h2{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5t32Krm0-EsmeBkl82a3JLRc_xrcw8kNsQ&usqp=CAU");
+  -webkit-background-clip:text;
+  background-clip:text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 5rem;
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containers h1{
+  color: rgb(5, 5, 5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-top: 12%;
+  height: calc(100vh- 72px);
+  }
+  .containers p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+  .hero-btn button{
+    background-color: rgb(172, 45, 45);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .hero-btn button:hover{
+    background-color:  rgb(223, 191, 11);
+    color: black;
+  }
+  .hero-img img{
+    margin-top: 25px;
+    margin-left: 25%;
+  }
+  .Shopping p{
+    font-size: 2rem;
+    color: gray;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
